@@ -2,7 +2,7 @@ import basics.CompareToZero;
 import basics.IsEven;
 import basics.LargestNumberOfVariable;
 
-public class Main {
+public class MainBasics {
 
     public static void main(String[] args) {
 
@@ -18,6 +18,8 @@ public class Main {
 
         CompareToZero compareToZero = new CompareToZero();
         compareToZero.compare(0);
+
+
 
     }
 }
