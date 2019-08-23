@@ -41,12 +41,12 @@ public class ForLoops {
     }
 
     public void equilateralTriangleDesc(int numberOfStar) {
-//        TODO
-        for (int i = numberOfStar; i >= 1; i--) {
-            for (int j = numberOfStar; j <= i; j++) {
-                System.out.println("*");
-            }
 
+        for (int i = numberOfStar; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" *");
+            }
+            System.out.println();
         }
     }
 }
