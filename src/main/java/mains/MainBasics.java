@@ -1,3 +1,5 @@
+package mains;
+
 import basics.CompareToZero;
 import basics.IsEven;
 import basics.LargestNumberOfVariable;
