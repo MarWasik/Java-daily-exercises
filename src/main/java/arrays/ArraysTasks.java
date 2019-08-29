@@ -1,4 +1,5 @@
 package arrays;
+
 import org.apache.commons.lang.ArrayUtils;
 
 public class ArraysTasks {
@@ -65,11 +66,22 @@ public class ArraysTasks {
 
     public int[] merge(int[] array1, int[] array2) {
 
-        int mergedArrayLength = array1.length + array2.length;
+        int[] mergedArray = ArrayUtils.addAll(array1, array2);
 
-//        TODO
-        int[] mergedArray =
-
-        return new int[mergedArrayLength];
+        return mergedArray;
     }
+
+//    Napisz metodę getSum, która przyjmie za parametr tablicę intów, a któa zwróci sumę jej elementów.
+
+
+    public int getSum(int[] arrayToSum) {
+
+        int sumOfArray = 0;
+
+        for (int i = 0; i <= arrayToSum.length - 1; i++) {
+            sumOfArray += arrayToSum[i];
+        }
+        return sumOfArray;
+    }
+
 }
